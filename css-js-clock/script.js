@@ -1,5 +1,5 @@
-const strips = [...document.querySelectorAll(".strip")]; // Corrected selector
-const numberSize = 8; // Removed incorrect quotes, should be a number
+const strips = [...document.querySelectorAll(".strip")]; 
+const numberSize = 8; 
 
 function highlight(strip, d) {
   const number = strips[strip].querySelector(`.number:nth-of-type(${d + 1})`);
